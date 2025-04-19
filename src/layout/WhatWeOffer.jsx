@@ -1,0 +1,101 @@
+function WhatWeOffer() {
+    return (
+        <section 
+            className="py-20"
+            style={{
+                background: 'linear-gradient(to bottom, #FFFFFF 60%, #97D988 95%)'
+            }}
+        >
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-center text-[#187C00] text-[18px] font-extrabold font-inter mb-16">WE OFFER</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-14 justify-items-center">
+                    {/* Customer-Centric Solutions Card */}
+                    <div 
+                        className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
+                        style={{
+                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            transition: 'all 0.3s ease-in-out'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                        }}
+                    >
+                        <div className="flex justify-center mb-6">
+                            <i className="ri-user-community-fill text-[48px] text-[#1B2A25] transition-colors duration-300 group-hover:text-[#187C00]"></i>
+                        </div>
+                        <h3 className="text-[#1B2A25] text-[23px] font-bold font-inter mb-4 text-left leading-[23px]">
+                            Customer-Centric Solutions Tailored to Your Needs
+                        </h3>
+                        <p className="text-[#4e4e4e] text-base text-left">
+                            We put you at the heart of everything we do. By offering personalized solutions that evolve with your needs, we ensure your business thrives. From quality FMCG products to exceptional service, we build strong, lasting relationships that drive mutual success.
+                        </p>
+                    </div>
+
+                    {/* Sustainable and Quality Products Card */}
+                    <div 
+                        className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
+                        style={{
+                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            transition: 'all 0.3s ease-in-out'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                        }}
+                    >
+                        <div className="flex justify-center mb-6">
+                            <i className="ri-seedling-fill text-[48px] text-[#1B2A25] transition-colors duration-300 group-hover:text-[#187C00]"></i>
+                        </div>
+                        <h3 className="text-[#1B2A25] text-[23px] font-bold font-inter mb-4 text-left leading-[23px]">
+                            Sustainable and Quality Products You Can Trust
+                        </h3>
+                        <p className="text-[#4e4e4e] text-base text-left">
+                            We are committed to sustainability and quality in every product we source and distribute. Our FMCG products meet the highest standards of compliance, ensuring they are not only good for your business but also for the planet.
+                        </p>
+                    </div>
+
+                    {/* Innovative Partnerships Card */}
+                    <div 
+                        className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
+                        style={{
+                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            transition: 'all 0.3s ease-in-out'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 20px rgba(24, 124, 0, 1))';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.filter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                            e.currentTarget.style.WebkitFilter = 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))';
+                        }}
+                    >
+                        <div className="flex justify-center mb-6">
+                            <i className="ri-service-fill text-[48px] text-[#1B2A25] transition-colors duration-300 group-hover:text-[#187C00]"></i>
+                        </div>
+                        <h3 className="text-[#1B2A25] text-[23px] font-bold font-inter mb-4 text-left leading-[23px]">
+                            Innovative Partnerships for Growth and Efficiency
+                        </h3>
+                        <p className="text-[#4e4e4e] text-base text-left">
+                            Through innovation and teamwork, we create efficient supply chains that deliver exceptional service. Our collaborative approach helps you grow your business while we handle the complexities of sourcing and distribution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default WhatWeOffer; 
