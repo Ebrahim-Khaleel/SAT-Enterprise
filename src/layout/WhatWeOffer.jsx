@@ -3,7 +3,7 @@ function WhatWeOffer() {
         <section 
             className="py-20"
             style={{
-                background: 'linear-gradient(to bottom, #FFFFFF 60%, #97D988 95%)'
+                background: 'linear-gradient(to top, #FFFFFF 80%, #97D988 100%)',
             }}
         >
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,7 +13,7 @@ function WhatWeOffer() {
                     <div 
                         className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
                         style={{
-                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            filter: 'drop-shadow(0px 0px 8px rgba(24, 124, 0, 0.7))',
                             WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
                             transition: 'all 0.3s ease-in-out'
                         }}
@@ -33,7 +33,7 @@ function WhatWeOffer() {
                             Customer-Centric Solutions Tailored to Your Needs
                         </h3>
                         <p className="text-[#4e4e4e] text-base text-left">
-                            We put you at the heart of everything we do. By offering personalized solutions that evolve with your needs, we ensure your business thrives. From quality FMCG products to exceptional service, we build strong, lasting relationships that drive mutual success.
+                            We put you at the heart of everything we do. By offering personalized solutions that evolve with your needs—delivered at the right time, for the market—we ensure your business thrives. From quality products to exceptional service, we build strong, lasting relationships that drive mutual success.
                         </p>
                     </div>
 
@@ -41,7 +41,7 @@ function WhatWeOffer() {
                     <div 
                         className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
                         style={{
-                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            filter: 'drop-shadow(0px 0px 8px rgba(24, 124, 0, 0.7))',
                             WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
                             transition: 'all 0.3s ease-in-out'
                         }}
@@ -61,7 +61,7 @@ function WhatWeOffer() {
                             Sustainable and Quality Products You Can Trust
                         </h3>
                         <p className="text-[#4e4e4e] text-base text-left">
-                            We are committed to sustainability and quality in every product we source and distribute. Our FMCG products meet the highest standards of compliance, ensuring they are not only good for your business but also for the planet.
+                            We are committed to sustainability and quality in every product we source and distribute. Our products meet the highest standards of compliance, ensuring they are not only good for your business but also for the planet.
                         </p>
                     </div>
 
@@ -69,7 +69,7 @@ function WhatWeOffer() {
                     <div 
                         className="bg-white rounded-lg p-8 border border-[#187C00] w-[370px] transition-all duration-300 hover:scale-102 hover:bg-white group"
                         style={{
-                            filter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
+                            filter: 'drop-shadow(0px 0px 8px rgba(24, 124, 0, 0.7))',
                             WebkitFilter: 'drop-shadow(0px 0px 10px rgba(24, 124, 0, 0.7))',
                             transition: 'all 0.3s ease-in-out'
                         }}
