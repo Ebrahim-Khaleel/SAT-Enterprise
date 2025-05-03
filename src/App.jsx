@@ -12,9 +12,9 @@ function App() {
     <main className="min-h-screen w-full overflow-x-hidden bg-white dark:bg-gray-900">
       <Navbar />
       <Lander />
-      <Clients />
       <WhatWeOffer />
       <About />
+      <Clients />
       <Contact />
       <Footer />
     </main>
