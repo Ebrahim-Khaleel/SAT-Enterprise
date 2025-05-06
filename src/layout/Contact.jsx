@@ -1,4 +1,27 @@
 function Contact() {
+    const onSubmit = async(event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target)
+
+        formData.append("access_key", "da0f1f42-dfb6-429a-9624-ff17be401b68")
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+        },
+        body: json
+        }).then((res) => res.json());
+
+        if (res.success) {
+            console.log("Success", res);
+        }
+    }
+
     return (
         <section id="contact" className="py-20 bg-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,7 +65,7 @@ function Contact() {
                             team will contact you shortly.
                         </p>
                         
-                        <form className="space-y-4">
+                        <form onSubmit={onSubmit} className="space-y-4">
                             <div>
                                 <label htmlFor="name" className="block text-[#1B2A25] text-[14px] font-inter font-semibold mb-1">
                                     Name

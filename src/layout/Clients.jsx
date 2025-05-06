@@ -33,7 +33,7 @@ function Clients() {
         {
             name: "Big Mart",
             id: 6,
-            logo: "/Big-Mart_logo.png",
+            logo: "/Big-Mart.png",
             alt: "Big Mart Logo"
         }
     ];
@@ -84,7 +84,7 @@ function Clients() {
 
                 @media (max-width: 768px) {
                     .animate-scroll {
-                        animation: scroll 15s linear infinite;
+                        animation: scroll 13s linear infinite;
                     }
                 }
 

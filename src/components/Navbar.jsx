@@ -72,27 +72,21 @@ function Navbar() {
                 </div>
 
                 {/* Mobile Navigation Menu */}
-                <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-[95px] left-0 w-full bg-[#101917] py-4 px-4`}>
-                    <div className="flex flex-col items-center gap-6">
+                <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-[95px] left-0 w-full bg-white py-16 px-8`}>
+                    <div className="flex flex-col gap-6">
                         <a 
                             href="#about" 
-                            className="font-inter font-bold text-[14px] text-white hover:text-[#C7C7C7] transition-colors"
+                            className="font-inter font-bold text-[20px] text-[#C18820] hover:text-[#C7C7C7] transition-colors"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             About Us
                         </a>
                         <a 
                             href="#contact"
+                            className="font-inter font-bold text-[20px] text-[#C18820] hover:text-[#C7C7C7] transition-colors"
                             onClick={() => setIsMenuOpen(false)}
-                        >                    
-                            <button
-                                className="bg-[#C18820] hover:bg-[#9A6B19] text-white font-inter font-bold text-[14px] rounded-lg flex items-center gap-2 px-4 py-2 transition-colors"
-                            >
-                                Contact Us
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
-                            </button>
+                        >
+                            Contact Us
                         </a>
                     </div>
                 </div>
