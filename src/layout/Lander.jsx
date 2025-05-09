@@ -64,7 +64,7 @@ function Lander() {
                         <div className="text-[#E4FFDE] text-[18px]">Products</div>
                     </div>
                     <div className="absolute bg-[#E4FFDE]/30 backdrop-blur-sm rounded-lg p-4 w-[160px] left-[870px] top-[120px] text-center">
-                        <div className="text-[32px] font-bold text-white">98%</div>
+                        <div className="text-[32px] font-bold text-white">100%</div>
                         <div className="text-[#E4FFDE] text-[14px]">On Time Delivery</div>
                     </div>
                     <div className="absolute bg-[#E4FFDE]/30 backdrop-blur-sm rounded-lg p-5 w-[170px] left-[870px] top-[470px] text-center">
